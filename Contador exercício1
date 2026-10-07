@@ -1,0 +1,13 @@
+public class Contadorexercicio1 {
+
+    public static void main(String[] args) {
+        int contador; // declando o contatdor
+        contador = 100; //inicializando o contador
+
+        while (contador <= 200) {
+            System.out.println(contador + " ");
+            contador ++; // mesma coisa que ultilizar o contador = contador + 1
+        }
+    }
+    
+}
